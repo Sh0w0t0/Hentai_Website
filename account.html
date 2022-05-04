@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="account.css">
 </head>
 <title>
-    hentai.at 2.0.2.1
+    hentai.at/account 2.1
 </title>
 
 <body>
@@ -16,11 +16,11 @@
         <a href="#home" class="active">Logo</a>
         <!-- Navigation links (hidden by default) -->
         <div id="myLinks">
-            <a href="search.html">Search "to <strong><u>search</u></strong> for specific shows and filter for specifictags"</a>
-            <a href="random.html">Random "to suggest you a <strong><u>random</u></strong> show"</a>
-            <a href="trend.html">Trend "to look for the <strong><u>trendy</u></strong> ones :D"</a>
-            <a href="tags.html"> Tags "to filter specific <strong><u>tags</u></strong>, that you enjoy or hate"</a>
-            <a href="account.html">Account "to create or manage your <strong><u>Account</u></strong>"</a>
+            <a href="search.html" target="_blank">Search "to <strong><u>search</u></strong> for specific shows and filter for specific tags"</a>
+            <a href="random.html" target="_blank">Random "to suggest you a <strong><u>random</u></strong> show"</a>
+            <a href="trend.html" target="_blank">Trend "to look for the <strong><u>trendy</u></strong> ones :D"</a>
+            <a href="tags.html" target="_blank"> Tags "to filter specific <strong><u>tags</u></strong>, that you enjoy or hate"</a>
+            <a href="account.html" target="_blank">Account "to create or manage your <strong><u>Account</u></strong>"</a>
         </div>
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -33,22 +33,22 @@
           <p>Please fill in this form to create an account.</p>
           <hr>
       
-          <label for="email"><b>Email</b></label>
+          <label for="email"><b class="email">Email</b></label>
           <input type="text" placeholder="Enter Email" name="email" id="email" required>
       
-          <label for="psw"><b>Password</b></label>
+          <label for="psw" class="psw"><b>Password</b></label>
           <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
       
-          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <label for="psw-repeat" class="psw-repeat"><b>Repeat Password</b></label>
           <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
           <hr>
       
-          <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+          <p class="T&P">By creating an account you agree to our <a href="#" target="_blank">Terms & Privacy</a>.</p>
           <button type="submit" class="registerbtn">Register</button>
         </div>
       
-        <div class="container signin">
-          <p>Already have an account? <a href="#">Sign in</a>.</p>
+        <div class="container_signin">
+          <p>Already have an account? <a href="#" target="_blank">Sign in</a>.</p>
         </div>
       </form>
 </body>
