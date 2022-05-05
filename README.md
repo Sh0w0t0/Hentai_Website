@@ -1,2 +1,2 @@
 ## Hentai Website
-A joke hentai website to iimporve our skills!
+A joke hentai website to improve our skills!
