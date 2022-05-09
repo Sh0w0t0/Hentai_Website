@@ -1,34 +1,28 @@
 body {
   background-color: #121212;
-  user-select: none;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: oblique;
   font-variant: normal;
-  user-select: none;
-  -webkit-user-drag: none;
 }
 
 .topnav {
   overflow: hidden;
   background-color: #333;
   position: relative;
-  -webkit-user-drag: none;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
-  -webkit-user-drag: none;
 }
 
 /* Style navigation menu links */
 .topnav a {
   color: white;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
   font-size: 20px;
   display: block;
-  -webkit-user-drag: none;
 }
 
 /* Style the hamburger menu */
@@ -38,56 +32,49 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-  -webkit-user-drag: none;
 }
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
-  -webkit-user-drag: none;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: red;
+  background-color: #e3047e;
   color: white;
-  -webkit-user-drag: none;
+  
 }
 
 a {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: oblique;
   font-variant: normal;
-  -webkit-user-drag: none;
 }
 
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
-  -webkit-user-drag: none;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
-  -webkit-user-drag: none;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888;
-  -webkit-user-drag: none;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
-  -webkit-user-drag: none;
 }
 
 #bored {
-  display:inline-flex;
+  display: inline-flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
@@ -97,21 +84,15 @@ a {
   background-color: #888;
   margin-left: 15px;
   margin-bottom: 10px;
-  -webkit-user-drag: none;
 }
 
-img{
-  width: 110px;
-  height: 110px;
+img {
+  /*width: 100px;*/
+  height: 100px;
+  /*margin: 10px;*/
+}
+
+html {
   -webkit-user-drag: none;
-  display:inline-flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  border: solid;
-  flex-basis: content;
-  font-size: x-large;
-  margin-left: 1px;
-  margin-bottom: 1px;
-  
+  user-select: none;
 }
