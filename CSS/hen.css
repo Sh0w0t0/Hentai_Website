@@ -85,3 +85,9 @@ a {
   margin-left: 15px;
   margin-bottom: 10px;
 }
+
+img{
+  width: 100px;
+  height: 100px;
+  margin: 1px;
+}
